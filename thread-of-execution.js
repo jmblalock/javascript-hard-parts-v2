@@ -1,6 +1,6 @@
 const num = 2;
-function multiplyBy2 (inputNumber) {
-  const result = inputhNumber*2;
+function multiplyBy2(inputNumber) {
+  const result = inputhNumber * 2;
   return result;
 }
 
