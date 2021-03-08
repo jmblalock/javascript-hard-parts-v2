@@ -1,9 +1,9 @@
-// Calling a function outside of the function call in which it was defined
+// Let's run outer again
 function outer() {
   let counter = 0;
   function incrementCounter() {
     counter++;
-    // console.log(counter);
+    console.log(counter);
   }
   return incrementCounter;
 }
@@ -11,3 +11,7 @@ function outer() {
 const myNewFunction = outer();
 myNewFunction();
 myNewFunction();
+
+const anotherFunction = outer();
+anotherFunction();
+anotherFunction();
